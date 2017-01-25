@@ -1,5 +1,3 @@
-all: othello engine clean
-
 othello : adapter.o
 	cc -o othello adapter.o
 
